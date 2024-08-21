@@ -1,5 +1,3 @@
-// Simple one
-
 use core::fmt;
 use std::collections::{HashMap, HashSet};
 
