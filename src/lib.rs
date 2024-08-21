@@ -1,7 +1,9 @@
-mod css;
-mod dom;
+pub mod css;
+pub mod dom;
+pub mod styles;
+
 #[path = "parsers/html-parser.rs"]
-mod html_parser;
+pub mod html_parser;
 
 #[path = "parsers/css-parser.rs"]
-mod css_parser;
+pub mod css_parser;
